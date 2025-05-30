@@ -1,14 +1,16 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Plus, Search, TrendingUp, Users, MessageCircle, Sparkles, Target, Award } from "lucide-react"
+import { Plus, Search, TrendingUp, Users, Sparkles, Target, Award } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { MainNav } from "@/components/main-nav"
 import { ChatDialog } from "@/components/chat-dialog"
+import { Navbar } from "@/components/navbar"
+import { NewClientDialog } from "@/components/new-client-dialog"
+import { Client } from "@/types"
 
 const trendingInsurances = [
   {
@@ -74,14 +76,34 @@ const stats = [
 ]
 
 export default function HomePage() {
-  const [clients, setClients] = useState([])
+  const [clients, setClients] = useState<Client[]>([])
   const [searchTerm, setSearchTerm] = useState("")
   const [showChat, setShowChat] = useState(false)
+  const [showNewClientDialog, setShowNewClientDialog] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+
+  const fetchClients = async () => {
+    try {
+      const response = await fetch('/client/clients.json')
+      if (!response.ok) throw new Error('Failed to fetch clients')
+      const data = await response.json()
+      setClients(data)
+    } catch (error) {
+      console.error('Error fetching clients:', error)
+      setClients([])
+    } finally {
+      setIsLoading(false)
+    }
+  }
 
   useEffect(() => {
-    const savedClients = JSON.parse(localStorage.getItem("clients") || "[]")
-    setClients(savedClients)
+    fetchClients()
   }, [])
+
+  const handleClientAdded = () => {
+    // Refresh clients list
+    fetchClients()
+  }
 
   const filteredClients = clients.filter(
     (client) =>
@@ -92,21 +114,10 @@ export default function HomePage() {
   stats[0].value = clients.length.toString()
 
   return (
-    <div className="min-h-screen">
-      <MainNav />
+    <div className="min-h-screen pt-16">
+      <Navbar />
 
       <main className="container mx-auto px-4 py-8">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <Sparkles className="h-4 w-4" />
-            Welcome to InsureFlow
-          </div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent mb-2">
-            Your Success Dashboard
-          </h1>
-          <p className="text-gray-600 text-lg">Manage clients, track performance, and grow your business</p>
-        </div>
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -121,7 +132,9 @@ export default function HomePage() {
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-gray-600 text-sm font-medium">{stat.title}</p>
-                      <p className="text-3xl font-bold text-gray-800 mt-1">{stat.value}</p>
+                      <p className="text-3xl font-bold text-gray-800 mt-1">
+                        {isLoading ? "..." : stat.value}
+                      </p>
                     </div>
                     <div
                       className={`w-12 h-12 rounded-full bg-gradient-to-r ${stat.color} flex items-center justify-center shadow-lg`}
@@ -135,29 +148,6 @@ export default function HomePage() {
           })}
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-8">
-          <Button
-            asChild
-            className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 flex-1"
-            size="lg"
-          >
-            <Link href="/clients/new">
-              <Plus className="h-5 w-5 mr-2" />
-              Add New Client
-            </Link>
-          </Button>
-          <Button
-            onClick={() => setShowChat(true)}
-            variant="outline"
-            className="border-2 border-blue-200 text-blue-600 hover:bg-blue-50 shadow-lg hover:shadow-xl transition-all duration-300 flex-1"
-            size="lg"
-          >
-            <MessageCircle className="h-5 w-5 mr-2" />
-            AI Assistant
-          </Button>
-        </div>
-
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Clients Section */}
           <div className="lg:col-span-2">
@@ -167,12 +157,20 @@ export default function HomePage() {
                   <div>
                     <CardTitle className="flex items-center gap-2 text-xl">
                       <Users className="h-6 w-6" />
-                      My Clients ({clients.length})
+                      My Clients ({isLoading ? "..." : clients.length})
                     </CardTitle>
                     <CardDescription className="text-blue-100">
                       Manage and track your client relationships
                     </CardDescription>
                   </div>
+                  <Button
+                    onClick={() => setShowNewClientDialog(true)}
+                    className="bg-white/20 hover:bg-white/30 text-white border-0"
+                    size="sm"
+                  >
+                    <Plus className="h-5 w-5 mr-2" />
+                    Add New Client
+                  </Button>
                 </div>
               </CardHeader>
               <CardContent className="p-6">
@@ -186,7 +184,14 @@ export default function HomePage() {
                   />
                 </div>
 
-                {filteredClients.length === 0 ? (
+                {isLoading ? (
+                  <div className="text-center py-12">
+                    <div className="w-24 h-24 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full flex items-center justify-center mx-auto mb-4 animate-pulse">
+                      <Users className="h-12 w-12 text-purple-500" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-gray-800 mb-2">Loading clients...</h3>
+                  </div>
+                ) : filteredClients.length === 0 ? (
                   <div className="text-center py-12">
                     <div className="w-24 h-24 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Users className="h-12 w-12 text-purple-500" />
@@ -201,49 +206,49 @@ export default function HomePage() {
                     </p>
                     {clients.length === 0 && (
                       <Button
-                        asChild
-                        className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white"
+                          onClick={() => setShowNewClientDialog(true)}
+                          className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-purple-600 text-white"
                       >
-                        <Link href="/clients/new">Add Your First Client</Link>
+                          Add Your First Client
                       </Button>
                     )}
                   </div>
                 ) : (
-                  <div className="grid gap-4">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {filteredClients.map((client, index) => (
                       <Card
                         key={client.id}
-                        className="hover:shadow-lg transition-all duration-300 hover:scale-[1.02] border-l-4 border-l-blue-400"
+                        className={`border-l-4 ${index % 3 === 0
+                          ? "border-l-blue-400"
+                          : index % 3 === 1
+                            ? "border-l-purple-400"
+                            : "border-l-emerald-400"
+                          } hover:shadow-lg transition-all duration-300 hover:scale-[1.02]`}
                       >
                         <CardContent className="p-4">
-                          <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-4">
-                              <div
-                                className={`w-12 h-12 rounded-full bg-gradient-to-r ${
-                                  index % 3 === 0
-                                    ? "from-purple-400 to-pink-400"
-                                    : index % 3 === 1
-                                      ? "from-blue-400 to-cyan-400"
-                                      : "from-green-400 to-emerald-400"
-                                } flex items-center justify-center text-white font-bold text-lg`}
-                              >
-                                {client.name.charAt(0).toUpperCase()}
-                              </div>
-                              <div>
-                                <h3 className="font-semibold text-gray-800">{client.name}</h3>
-                                <p className="text-gray-600">{client.mobileNumber}</p>
-                                {client.additionalFields?.length > 0 && (
-                                  <Badge variant="secondary" className="mt-1 text-xs">
-                                    +{client.additionalFields.length} fields
-                                  </Badge>
-                                )}
-                              </div>
+                          <div className="flex items-center gap-4">
+                            <div className={`w-12 h-12 rounded-lg bg-gradient-to-r shadow-md ${index % 3 === 0
+                              ? "from-blue-500 to-purple-500"
+                              : index % 3 === 1
+                                ? "from-purple-500 to-pink-500"
+                                : "from-emerald-500 to-teal-500"
+                              } flex items-center justify-center text-white font-bold text-lg`}>
+                              {client.name.charAt(0).toUpperCase()}
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <h3 className="font-semibold text-gray-800 truncate">{client.name}</h3>
+                              <p className="text-gray-600 text-sm">{client.mobileNumber}</p>
+                              {client.additionalFields?.length > 0 && (
+                                <Badge variant="secondary" className="mt-1 text-xs">
+                                  +{client.additionalFields.length} fields
+                                </Badge>
+                              )}
                             </div>
                             <Button
                               variant="outline"
                               size="sm"
                               asChild
-                              className="border-blue-200 text-blue-600 hover:bg-blue-50"
+                              className="border-blue-200 text-blue-600 hover:bg-blue-50 shrink-0"
                             >
                               <Link href={`/clients/${client.id}`}>View Details</Link>
                             </Button>
@@ -327,6 +332,11 @@ export default function HomePage() {
       </main>
 
       <ChatDialog open={showChat} onOpenChange={setShowChat} />
+      <NewClientDialog
+        open={showNewClientDialog}
+        onOpenChange={setShowNewClientDialog}
+        onClientAdded={handleClientAdded}
+      />
     </div>
   )
 }

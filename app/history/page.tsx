@@ -4,7 +4,7 @@ import { Clock, Phone, Users, Calendar } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { MainNav } from "@/components/main-nav"
+import { Navbar } from "@/components/navbar"
 
 const clientHistory = [
   {
@@ -111,7 +111,7 @@ const stats = [
 export default function HistoryPage() {
   return (
     <div className="min-h-screen">
-      <MainNav />
+      <Navbar />
 
       <main className="container mx-auto px-4 py-8">
         {/* Header */}

@@ -6,7 +6,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { MainNav } from "@/components/main-nav"
+import { Navbar } from "@/components/navbar"
 
 const insuranceDetails = {
   1: {
@@ -85,7 +85,7 @@ export default function InsuranceDetailsPage() {
   if (!insurance) {
     return (
       <div className="min-h-screen">
-        <MainNav />
+        <Navbar />
         <main className="container mx-auto px-4 py-8">
           <div className="text-center py-12">
             <div className="w-24 h-24 bg-gradient-to-r from-red-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -107,7 +107,7 @@ export default function InsuranceDetailsPage() {
 
   return (
     <div className="min-h-screen">
-      <MainNav />
+      <Navbar />
 
       <main className="container mx-auto px-4 py-8">
         {/* Header */}

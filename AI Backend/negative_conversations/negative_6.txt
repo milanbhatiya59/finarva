@@ -1,0 +1,7 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke liye call kiya tha.
+Customer (Rude/Insulting): Kaun Gromo? Kya bechte ho? Faltu cheezein?
+Gromo partner (Trying to be professional): Sir, hum financial products offer karte hain, jaise health insurance, jo aapki family ke liye bahut zaroori ho sakta hai.
+Customer (Rude/Dismissive): Zaroori? Tum jaise logon ko apna commission zaroori lagta hai! Mujhe kuch nahi chahiye tumse!
+Gromo partner (Defensive/Frustrated): Sir, aap aise baat kyun kar rahe hain? Main to bas jaankari de raha hoon.
+Customer (Rude/Concluding): Mujhe koi jaankari nahi chahiye! Rakho phone aur dobara call mat karna!

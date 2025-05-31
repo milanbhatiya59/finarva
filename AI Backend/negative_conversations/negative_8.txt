@@ -1,0 +1,7 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Suspicious): Mera number kahan se mila tumko?
+Gromo partner (Explaining): Sir, aapka number humare database mein tha, ho sakta hai aapne kahin register kiya ho. Hum ek genuine company hain.
+Customer (Suspicious/Accusatory): Database? Kaisa database? Tum log fraud ho! Mera data chori karte ho!
+Gromo partner (Defensive/Trying to reassure): Nahi sir, aisa kuch nahi hai. Hum RBI approved hain...
+Customer (Angry/Dismissive): Mujhe koi proof nahi chahiye! Mera number delete karo aur dobara call mat karna! Fraud kahin ke!

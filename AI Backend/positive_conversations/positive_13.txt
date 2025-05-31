@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Neutral/Listening): Haan ji.
+Gromo partner (Informative/Engaged): Sir, main aapko ek health insurance plan ke baare mein bata raha tha jo aapki family ke liye bahut beneficial ho sakta hai. Isme cover, premium aur benefits bahut achhe hain.
+Customer (Considering): Hmm, theek hai. Mujhe iske baare mein sochna padega. Aur family se bhi discuss karna hai.
+Gromo partner (Polite/Accommodating): Ji sir, bilkul. Aap aaram se discuss kar lijiye. Kya main aapko ek-do din baad call karoon to aap mujhe apna decision bata sakte hain?
+Customer (Agreeable): Haan, theek hai. Aap mujhe parson call kar lena.
+Gromo partner (Polite/Concluding): Theek hai sir, main aapko parson call karta hoon. Aapka samay dene ke liye dhanyawad.

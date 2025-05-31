@@ -1,0 +1,9 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Uninterested/Short): Haan, bolo.
+Gromo partner (Informative/Engaged): Sir, health insurance aaj ke samay mein bahut zaroori hai. Kya aapki family ke paas koi health cover hai?
+Customer (Uninterested/Blunt): Nahi hai. Aur chahiye bhi nahi.
+Gromo partner (Persistent/Trying to explain): Sir, par agar koi medical emergency aa gayi to...
+Customer (Uninterested/Dismissive): Dekh lenge. Tum apna time waste mat karo. Mujhe nahi chahiye.
+Gromo partner (Defeated/Polite): Theek hai sir. Agar aapka kabhi mann bane to...
+Customer (Uninterested/Concluding): Nahi banega. Rakho phone.

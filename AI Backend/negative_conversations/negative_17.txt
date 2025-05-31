@@ -1,0 +1,7 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Dismissive/Confident): Health insurance? Mere paas hai sab kuch. Mujhe kuch nahi chahiye.
+Gromo partner (Trying to probe): Sir, kya aapke paas family floater hai ya individual policies? Kai baar cover sufficient nahi hota...
+Customer (Dismissive/Interrupting): Sab sufficient hai! Tum apna time waste mat karo aur mera bhi! Mujhe koi policy nahi chahiye!
+Gromo partner (Persistent/Frustrated): Sir, ek baar sun to lijiye...
+Customer (Dismissive/Hanging up): Bola na nahi chahiye! Rakho!

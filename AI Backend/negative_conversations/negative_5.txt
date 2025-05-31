@@ -1,0 +1,9 @@
+
+Gromo partner (Polite/Inquiring): Hello sir, Prakhar Shukla ji se baat ho rahi hai?
+Customer (Neutral/Confirming): Ji haan, aap kaun?
+Gromo partner (Polite/Introducing): Sir main Milan Kumar Bhatia Gromo se bol raha hoon. Kya aapka thoda samay mil sakta hai? Main health insurance ke baare mein kuch jaankari dena chahta tha.
+Customer (Annoyed/Dismissive): Phir aa gaye sales wale! Kitni baar bola hai mujhe kuch nahi chahiye!
+Gromo partner (Trying to calm): Sir, main samajh sakta hoon, par main aapko ek bahut important cheez ke baare mein bata raha hoon...
+Customer (Angry/Interrupting): Mujhe koi important cheez nahi sunni! Mera time waste mat karo! Dobara call kiya to theek nahi hoga!
+Gromo partner (Surprised/Stunned): Sir...
+Customer (Angry/Hanging up): Rakho phone!

@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Neutral/Curious): Haan, bolo. Kya offer hai?
+Gromo partner (Informative/Engaged): Sir, humare paas ek plan hai jo bahut competitive premium par high sum insured offer karta hai. Isme cashless facility bhi hai aur maternity cover ka option bhi hai.
+Customer (Interested/Inquiring): Maternity cover? Uske kya terms hain?
+Gromo partner (Informative/Detailed): Ji sir, maternity cover ke liye usually 2 saal ka waiting period hota hai. Isme delivery expenses, pre and post-natal expenses cover hote hain. Main aapko iski poori details aur waiting period ki jaankari bhej sakta hoon.
+Customer (Interested/Agreeable): Theek hai, bhej dijiye. Main check karta hoon.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.

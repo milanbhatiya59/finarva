@@ -1,0 +1,9 @@
+
+Gromo partner (Polite/Inquiring): Hello sir, Prakhar Shukla ji se baat ho rahi hai?
+Customer (Neutral/Confirming): Ji haan, aap kaun?
+Gromo partner (Polite/Introducing): Sir main Milan Kumar Bhatia Gromo se bol raha hoon. Kya aapka thoda samay mil sakta hai? Main health insurance ke baare mein kuch jaankari dena chahta tha.
+Customer (Neutral/Busy): Abhi main thoda busy hoon, kya aap baad mein call kar sakte hain?
+Gromo partner (Polite/Accommodating): Ji bilkul sir. Aap kab free rahenge? Main aapko us samay call kar loonga.
+Customer (Neutral/Suggesting time): Aaj shaam ko 6 baje ke baad theek rahega.
+Gromo partner (Polite/Agreeing): Theek hai sir, main aapko aaj shaam 6 baje call karta hoon. Aapka samay dene ke liye dhanyawad.
+Customer (Polite/Concluding): Theek hai.

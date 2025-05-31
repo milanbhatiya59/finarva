@@ -1,0 +1,10 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Neutral/Inquiring): Haan, bolo. Mere paas ek policy hai already, par main compare karna chahta hoon.
+Gromo partner (Informative/Helpful): Ji sir, bilkul. Hum aapki existing policy ko compare kar sakte hain humare plans ke saath taaki aapko pata chale ki kaunsa zyada beneficial hai. Kya aap mujhe apni current policy ki details bata sakte hain?
+Customer (Interested/Cooperative): Achha, theek hai. Meri policy mein sum insured itna hai, premium itna hai...
+Gromo partner (Listening/Analyzing): Okay sir, main note kar raha hoon. Isme room rent limit kya hai?
+Customer (Providing details): Room rent limit 5000 hai.
+Gromo partner (Informative/Suggesting): Theek hai sir, aapki details ke hisaab se humare paas ek plan hai jisme same premium par zyada sum insured aur no room rent limit hai. Main aapko iska comparison sheet bhej deta hoon.
+Customer (Impressed/Agreeable): Wah, theek hai. Bhej do comparison sheet.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.

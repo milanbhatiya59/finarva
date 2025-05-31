@@ -1,0 +1,11 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Slightly Skeptical): Haan, bolo. Kya hai?
+Gromo partner (Informative/Engaged): Sir, aaj ke time mein medical expenses bahut badh gaye hain. Ek achha health insurance plan aapki family ko financial security de sakta hai. Humare paas kuch plans hain jo bahut affordable hain aur achha cover dete hain.
+Customer (Curious): Affordable? Kitna premium lagta hai?
+Gromo partner (Informative/Specific): Sir, ye aapki age aur family members par depend karta hai. Main aapko ek rough idea de sakta hoon ya aapki details ke hisaab se exact quote bhej sakta hoon. Kya main aapki age jaan sakta hoon?
+Customer (Hesitant but agrees): Meri age 40 hai.
+Gromo partner (Informative/Helpful): Okay sir,
+        40 age ke liye humare paas ek plan hai jiska premium kafi reasonable hai aur cover bhi achha hai. Main aapko iski details WhatsApp par bhej deta hoon.
+Customer (Agreeable): Theek hai, bhej do.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.

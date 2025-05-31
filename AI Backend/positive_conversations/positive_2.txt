@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Skeptical/Concerned): Health insurance? Isme to bahut terms and conditions hote hain jo baad mein pata chalte hain.
+Gromo partner (Understanding/Reassuring): Ji sir, main samajh sakta hoon aapki chinta. Isi liye hum Gromo par saari policies ki details transparently provide karte hain. Humare plans mein pre-existing diseases ka bhi cover hota hai, with a standard waiting period.
+Customer (Less Skeptical): Achha, pre-existing diseases bhi cover hoti hain? Kitne time baad?
+Gromo partner (Informative/Detailed): Ji sir, usually 2 se 4 saal ka waiting period hota hai, depending on the policy. Main aapko ek policy ki details bhejta hoon jisme ye saari jaankari hogi.
+Customer (Interested/Agreeable): Theek hai, bhej dijiye. Main dekh leta hoon.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Koi sawaal ho to aap mujhe call kar sakte hain.

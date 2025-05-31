@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Kya aap health insurance mein interested hain?
+Customer (Neutral/Curious): Health insurance? Kya hai aapke paas?
+Gromo partner (Informative/Engaged): Ji sir, hum Gromo par kai tarah ke health insurance plans offer karte hain jo aapki aur aapki family ki zarooraton ke hisaab se hain. Kya main aapki family details jaan sakta hoon taaki main aapko sahi plan bata sakoon?
+Customer (Slightly Interested): Achha, theek hai. Meri family mein main, meri wife aur do bachche hain.
+Gromo partner (Informative/Helpful): Okay sir, iske liye humare paas ek bahut achha family floater plan hai. Main aapko iski details WhatsApp par bhej deta hoon. Aap dekh kar mujhe bataiyega.
+Customer (Agreeable): Theek hai, bhej do.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.

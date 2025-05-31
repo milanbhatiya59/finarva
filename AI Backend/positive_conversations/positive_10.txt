@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Neutral/Inquiring): Haan ji, kya jaankari hai?
+Gromo partner (Informative/Engaged): Sir, humare paas ek naya health insurance plan aaya hai jo family ke liye bahut comprehensive cover deta hai, especially for senior citizens. Kya aapke parents hain jo aap par dependent hain?
+Customer (Interested/Concerned): Haan, mere parents hain. Unki age 65+ hai. Unke liye koi achha plan hai?
+Gromo partner (Informative/Helpful): Ji sir, bilkul hai. Humare paas senior citizens ke liye specially designed plans hain jisme age limit ka issue nahi hota aur pre-existing conditions ke liye bhi options hain. Main aapko iski details aur benefits WhatsApp par bhej deta hoon.
+Customer (Interested/Agreeable): Achha, theek hai. Bhej do. Main dekh leta hoon.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.

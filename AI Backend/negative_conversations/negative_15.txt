@@ -1,0 +1,7 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Angry/Driving): Yaar main drive kar raha hoon! Tum logon ko time nahi pata kya call karne ka!
+Gromo partner (Apologetic/Trying to reschedule): Sorry sir, main aapko baad mein call kar loon? Jab aap free ho?
+Customer (More Angry): Baad mein kya! Abhi phone rakho! Mera dhyan bhatka rahe ho! Accident ho gaya to kaun zimmedar hoga!
+Gromo partner (Trying to calm): Sorry sir, main abhi phone rakh deta hoon.
+Customer (Angry/Hanging up): Rakho!

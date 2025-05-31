@@ -1,0 +1,6 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke liye call kiya tha.
+Customer (Polite/Declining): Dekhiye ji, abhi mujhe health insurance ki zaroorat nahi hai. Mere paas pehle se hai.
+Gromo partner (Polite/Accepting): Oh, theek hai sir. Koi baat nahi. Agar aapko future mein kabhi koi aur policy dekhni ho ya apni existing policy review karwani ho, to aap humse contact kar sakte hain. Humari services hamesha available hain.
+Customer (Polite/Appreciative): Theek hai, dhanyawad. Main dhyan rakhoonga.
+Gromo partner (Polite/Concluding): Thank you sir, aapka din shubh ho.

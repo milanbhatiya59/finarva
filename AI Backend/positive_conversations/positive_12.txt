@@ -1,0 +1,8 @@
+
+Gromo partner (Polite/Introducing): Hello sir, main Gromo se Milan Kumar Bhatia bol raha hoon. Health insurance ke baare mein baat karni thi.
+Customer (Hesitant/Concerned): Dekhiye ji, mujhe insurance ka process bahut complicated lagta hai. Claim kaise karte hain, kya documents chahiye, kuch samajh nahi aata.
+Gromo partner (Understanding/Reassuring): Ji sir, main samajh sakta hoon. Isi liye Gromo par hum aapko poore process mein help karte hain. Policy lene se lekar claim tak, humari team aapki madad ke liye available rehti hai. Hum aapko step-by-step guide karte hain.
+Customer (Relieved/Interested): Achha, matlab aap log help karte hain?
+Gromo partner (Informative/Helpful): Ji sir, bilkul. Humara goal aapki life ko easy banana hai. Main aapko ek chhota sa video ya document bhej sakta hoon jisme claim process explain kiya gaya hai.
+Customer (Agreeable): Theek hai, bhej do. Agar process easy hai to main soch sakta hoon.
+Gromo partner (Polite/Concluding): Ji sir, main abhi bhej deta hoon. Aapka samay dene ke liye dhanyawad.
